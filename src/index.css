@@ -1,0 +1,22 @@
+html, body {
+    /*overflow-x: hidden;   !* removes unwanted horizontal scroll *!*/
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+}
