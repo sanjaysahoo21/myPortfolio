@@ -1,9 +1,13 @@
 import React from 'react';
 import './Contact.css';
+import ContactHeroSection from "../../Components/ContactHeroSection/ContactHeroSection";
 
 function Contact(props) {
     return (
-        <div></div>
+        <>
+            <ContactHeroSection />
+
+        </>
     );
 }
 

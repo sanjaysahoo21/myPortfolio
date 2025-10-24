@@ -1,0 +1,23 @@
+/*toogling buttons into different domains*/
+.toogle-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    width: 30rem;
+    height: 5rem;
+    background-color: #888888;
+    border-radius: 10rem;
+    padding: 2rem 1rem;
+}
+.js-t-button {
+    font-size: 1.6rem;
+    color: black;
+    padding: 1rem 2.5rem;
+    border-radius: 10rem;
+}
+.js-projects-active {
+    background-color: black;
+    color: #888888;
+    transition: background 0.5s ease, color 0.5s ease;
+}

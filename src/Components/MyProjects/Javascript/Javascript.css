@@ -1,0 +1,130 @@
+.project-content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: opacity 0.5s ease;
+}
+.project-content.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+/*frontend container body*/
+#frontend-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "image1 content1"
+        "content2 image2";
+    background-color: black;
+}
+.frontend-card {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem 1rem;
+}
+/*oryx project*/
+.oryx-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: image1;
+}
+.oryx-logo img {
+    width: 20rem;
+    height: 25rem;
+}
+.oryx-caption p {
+    font-size: 2.6rem;
+    text-align: center;
+    color: #888888;
+    font-weight: bold;
+}
+.oryx-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem;
+    color: #888888;
+    grid-area: content1;
+}
+/*rock paper scissors project*/
+.rps-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem;
+    color: #888888;
+    grid-area: content2;
+}
+.rps-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: image2;
+}
+.rps-logo img {
+    width: 20rem;
+    height: 25rem;
+}
+.rps-caption p {
+    font-size: 2.6rem;
+    text-align: center;
+    color: #888888;
+    font-weight: bold;
+}
+.learn-more-button {
+    background-color: #888888;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+    font-weight: bold;
+}
+.learn-more-button:hover {
+    cursor: pointer;
+}
+.project-card-ani-left {
+    animation: projectScrollAnimationLeft 2s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 50%;
+}
+.project-card-ani-right {
+    animation: projectScrollAnimationRight 2s ease-in-out forwards;
+    animation-timeline:view();
+    animation-range: entry 10% cover 50%;
+}
+@keyframes projectScrollAnimationLeft {
+    from {
+        transform: translateX(-3.5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes projectScrollAnimationRight {
+    from {
+        transform: translateX(3.5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

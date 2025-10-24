@@ -1,0 +1,23 @@
+.footer-section {
+    width: 100%;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 3rem;
+    box-sizing: border-box;
+}
+.footer-content {
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+.footer-content span {
+    color: #8e733c;
+}

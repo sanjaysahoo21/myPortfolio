@@ -1,0 +1,82 @@
+.internship-section {
+    width: 100%;
+    height: 60rem;
+    padding: 5rem 3rem;
+}
+.internship-section-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.internship-heading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2rem;
+}
+.internship-heading p {
+    font-size: 3.5rem;
+    color: black;
+    margin: 0;
+}
+.internship-items {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.internship-item-left {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: projectScrollAnimationLeft 2s ease-in-out forwards;
+    animation-timeline:view();
+    animation-range: entry 10% cover 50%;
+}
+.internship-item-right {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: projectScrollAnimationRight 2s ease-in-out forwards;
+    animation-timeline:view();
+    animation-range: entry 10% cover 50%;
+}
+.internship-image {
+    width: 55%;
+    height: 90%;
+    border-radius: 2rem;
+}
+.internship-image img {
+    width: 100%;
+    height: 100%;
+}
+.internship-content {
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.internship-content p {
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.74);
+    margin: 0;
+}
+.learn-more-button a {
+    color: black;
+    text-decoration: none;
+}
