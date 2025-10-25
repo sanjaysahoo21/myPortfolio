@@ -48,7 +48,7 @@ function MySkills() {
         },
         {
             image: reactjs,
-            title: "React JS",
+            title: "Reactjs JS",
             classList: "reactjs-img",
         },
         {

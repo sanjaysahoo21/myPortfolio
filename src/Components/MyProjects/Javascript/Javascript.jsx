@@ -11,7 +11,7 @@ function Javascript() {
         window.open('https://sanjaysahoo21.github.io/RockPaperScissors/')
     }
     return (
-        <div id="frontend-container" className="project-content active">
+        <div id="javascript-container" className="project-content active">
             <div className="oryx-card frontend-card project-card-ani-left">
                 <div className="oryx-logo">
                     <img src={oryxLogo} alt="oryx"/>

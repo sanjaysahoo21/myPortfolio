@@ -42,7 +42,7 @@ const cardsInformationRight = [
     },
     {
         image: "./assets/images/reactjs.png",
-        title: "React JS",
+        title: "Reactjs JS",
         classList: "reactjs-img",
     },
     {

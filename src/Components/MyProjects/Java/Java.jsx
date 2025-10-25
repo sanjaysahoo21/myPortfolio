@@ -1,11 +1,9 @@
 import React from 'react';
-import './Java.css';
+import './Java.css'
 
-function Java() {
+function Java(props) {
     return (
-        <div id="java-container" className="project-content">
-            <h1>Projects will Come Soon</h1>
-        </div>
+        <div id='java-container'>Java Projects come soon</div>
     );
 }
 

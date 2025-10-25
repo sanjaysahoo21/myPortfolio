@@ -1,16 +1,16 @@
-.project-content {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    transition: opacity 0.5s ease;
-}
-.project-content.active {
-    opacity: 1;
-    visibility: visible;
-    position: relative;
-}
+/*.project-content {*/
+/*    opacity: 0;*/
+/*    visibility: hidden;*/
+/*    position: absolute;*/
+/*    transition: opacity 0.5s ease;*/
+/*}*/
+/*.project-content.active {*/
+/*    opacity: 1;*/
+/*    visibility: visible;*/
+/*    position: relative;*/
+/*}*/
 /*frontend container body*/
-#frontend-container {
+#javascript-container {
     position: absolute;
     width: 100%;
     height: 100%;
