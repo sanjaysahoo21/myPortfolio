@@ -7,11 +7,16 @@ import javaCertificate from '../../assets/images/javaFunCf.png';
 import pythonCertificate from '../../assets/images/pythonCf.png';
 import htmlCertificate from '../../assets/images/htmlCf.png';
 import cssCertificate from '../../assets/images/cssCf.png';
-import javaScriptCertificate from '../../assets/images/javaScriptCf.png';
+import javaScriptCertificate2 from '../../assets/images/javaScriptCf2.png';
+import pythonCertificateLD from '../../assets/images/pythonCfLinkedin.png';
+import htmlandCssCertificateLD from '../../assets/images/htmlAndCssLinkedin.png';
+import javaScriptCertificate1 from '../../assets/images/javaScriptCf.png';
 
 function MyCertificate(props) {
     const settings = {
         dots: true,
+
+
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -70,9 +75,28 @@ function MyCertificate(props) {
         {
             id: 5,
             name: 'javascript',
-            image: javaScriptCertificate,
+            image: javaScriptCertificate1,
             alt: 'JavaScript Certificate',
-        }
+        },
+        {
+            id: 6,
+            name: 'javascript-2',
+            image: javaScriptCertificate2,
+            alt: 'JavaScript Certificate (2nd attempt)',
+        },
+        {
+            id: 7,
+            name: 'python-linkedin',
+            image: pythonCertificateLD,
+            alt: 'Python Certificate (LinkedIn)',
+        },
+        {
+            id: 8,
+            name: 'html-and-css',
+            image: htmlandCssCertificateLD,
+            alt: 'HTML and CSS Certificate (LinkedIn)',
+        },
+
     ];
 
     return (
