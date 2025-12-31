@@ -79,3 +79,8 @@
     color: rgba(0, 0, 0, 0.74);
     animation: heroAnimation 1.5s linear;
 }
+
+/*media queries*/
+@media (max-width: 1025px) {
+    
+}

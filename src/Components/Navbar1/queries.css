@@ -1,0 +1,9 @@
+/* media queries */
+@media (max-width: 768px) {
+    .navbar {
+        top: auto;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

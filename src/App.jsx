@@ -10,8 +10,8 @@ function App() {
 
   return (
     <BrowserRouter>
-        <IntroButtons/>
         <Navbar />
+        <IntroButtons/>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
@@ -21,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

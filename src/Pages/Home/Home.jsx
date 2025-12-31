@@ -7,6 +7,7 @@ import MySkills from "../../Components/MySkills/MySkills";
 import Footer from "../../Components/Footer/Footer";
 import MyProjects from "../../Components/MyProjects/MyProjects";
 import MyCertificate from "../../Components/MyCertificates/MyCertificate";
+import Navbar from '../../Components/Navbar1/Navbar';
 
 function Home() {
     return (

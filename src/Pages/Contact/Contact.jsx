@@ -6,7 +6,6 @@ function Contact(props) {
     return (
         <>
             <ContactHeroSection />
-
         </>
     );
 }

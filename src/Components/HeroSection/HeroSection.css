@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
+
 }
 .hero-heading {
     font-size: 6.8rem;
@@ -75,5 +76,14 @@
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+
+/* media queries */
+
+@media (max-width: 1025px) {
+    .hero-heading {
+    font-size: 6rem;
     }
 }

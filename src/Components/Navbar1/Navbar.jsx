@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import './queries.css';
 import {Link, useLocation} from 'react-router-dom';
 import {useEffect, useState} from'react';
 
